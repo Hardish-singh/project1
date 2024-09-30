@@ -1,0 +1,136 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+
+
+
+.edit{
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar {
+    width: 100vw;
+    background-color: #040404;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.songItems{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    display:flex;
+    gap:30px;
+    list-style: none;
+    
+}
+
+.sidebar .logo h1 {
+    color: #1DB954;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ol li {
+    margin: 20px 0;
+}
+
+.sidebar ol li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+}
+
+ .common{
+    margin: 10px;
+    width:40vw;
+    height:5vh;
+    /* border:2px solid blue; */
+    /* text-align: center; */
+    border-radius: 10px;
+    background-color: rgb(85, 78, 78);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.play{
+    cursor: pointer;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+   width: 100vw;
+    right: 0;
+    background-color: #181818;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.player-controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.track-info {
+    display: flex;
+    align-items: center;
+}
+
+.track-info img {
+    width: 50px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.track-details p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.volume-control input[type="range"] {
+    width: 40vw;
+}
+ul{
+    display:flex;
+    flex-direction: column;
+}
